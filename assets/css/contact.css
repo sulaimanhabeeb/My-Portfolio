@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .contact-text{
+padding: 100px;
+text-align: center;
+font-size: 30px;
+} */
+
+.form{
+    text-align: center;
+    background-color: rosybrown;
+}
+
+.form-container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 16px;
+}
+
+input,textarea {
+    border:1px solid #555555;
+    font-size: 25px;
+ padding: 10px;
+}
+
+textarea{
+    border: 1px solid;
+    width: 500px;
+    min-width: 200px;
+    max-width: 330px;
+}
+
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    color:rgb(197, 188, 166)
+}
+
+.registration-button{
+    font-size: 24px;
+    background:dimgrey;
+    padding: 2px 20px;
+    color: floralwhite;
+    cursor: pointer;
+    
+}
+.registration-button:hover{
+    font-weight: 900;
+
+}
